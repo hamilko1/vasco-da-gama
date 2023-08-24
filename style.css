@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor-principal: black  ;
+    --cor-secundaria: red;
+    --cor-terciaria: white;
+    --cor-hover: #272829;
+    --cor-de-fundo: #F5F5F5;
+    
+    --fonte-principal: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-secundaria);
+    box-sizing: border-box;
+   
+}
+.cabeca{
+        padding: 24px;
+        background-color: var(--cor-principal);
+        display: flex;
+        
+}
+
+.vasco_imagem{
+    width: 50px;
+    
+}
+
+
+.contato{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.paragrafo{
+    color:  var(--cor-principal);    
+    font-family: var(--fonte-principal);
+  }
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 15%;
+}
+
+.principal_texto{
+     width: 615px;
+     display: flex;
+     flex-direction: column;
+     gap: 80px;
+}
+
+.vasco{
+    text-decoration: none;
+    color: var(--cor-principal);
+    border-radius: 20px;
+    border-color: #5C8374;
+    padding: 20px 30px 20px 30px;
+    border: solid;
+    font-family: var(--fonte-principal);
+}
+
+.vasco:hover{
+    background-color:var(--cor-hover);
+    border: solid;
+    color: var(--cor-principal);
+    border-color: var(--cor-principal);
+    display: block;
+}
+
+
+.rodape{
+    color:var(--cor-secundaria);
+    background-color: var(--cor-principal);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fonte-principal);
+}
